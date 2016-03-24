@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">First task</string>
+    <string name="tv_crated_date" translatable="false">25 лютого 2016</string>
+    <string name="tv_filter" translatable="false">В роботі</string>
+    <string name="tv_registered_date" translatable="false">26 лютого 2016</string>
+    <string name="tv_label_create_date">Створено</string>
+    <string name="tv_label_name_responsible">Відповідальний</string>
+    <string name="tv_label_register_date">Зареєстровано</string>
+    <string name="tv_label_solved_date">Вирішити до</string>
+    <string name="tv_order_type">Комунальне господарство</string>
+    <string name="tv_resolve_date">29 лютого 2016</string>
+    <string name="tv_responsible_name">Дніпропетровський МВК</string>
+    <string name="description">Открытый люк(возле ракламного щита), район поворота 18 и 19 трамваев на проспекте Мира с Донецкого шоссе</string>
+</resources>

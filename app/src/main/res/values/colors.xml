@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#557cac</color>
+    <color name="colorPrimaryDark">#426084</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="color_shape_background">#f89900</color>
+    <color name="color_background">#ebebeb</color>
+    <color name="color_text_target">#858585</color>
+    <color name="color_text_date">#191919</color>
+    <color name="color_text_order">#191919</color>
+    <color name="color_text_white">#edf1f6</color>
+    <color name="color_divider">#c4c4c4</color>
+</resources>
