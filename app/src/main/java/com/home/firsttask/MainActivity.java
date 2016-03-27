@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     private View.OnClickListener onBackClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            if(view!=null){
+            if(view!=null){ //[Comment] Bad formatting
                 onBackPressed();
             }
         }
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     private void setImagesUrls(){
         mImagesUrls = new ArrayList<>();
         mImagesUrls.add("https://stv.maps.yandex.net/images/?v=3.08.0&oid=1297679222_673949761_23_1430985844&z=3&x=3&y=1");
-        mImagesUrls.add("https://stv.maps.yandex.net/images/?v=3.10.1&oid=1254588712_626488848_23_1371900264&z=2&x=4&y=2");
+        mImagesUrls.add("https://stv.maps.yandex.net/images/?v=3.10.1&oid=1254588712_626488848_23_1371900264&z=2&x=4&y=2"); //[Comment] Looks like hardcode. Use <string-array />
         mImagesUrls.add("https://stv.maps.yandex.net/images/?v=3.10.1&oid=1254596655_626631839_23_1371919747&z=2&x=8&y=2");
     }
 
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         mTvLabelRegistered = (TextView) findViewById(R.id.tv_label_registered);
         mTvLabelResolved = (TextView) findViewById(R.id.tv_label_resolved);
         mTvLabelResponsibleName = (TextView) findViewById(R.id.tv_label_responsible);
-        mBtnBack=(ImageButton)findViewById(R.id.toolbar_btn_back);
+        mBtnBack=(ImageButton)findViewById(R.id.toolbar_btn_back); //[Comment] Bad formatting
     }
 
     private void setListeners() {

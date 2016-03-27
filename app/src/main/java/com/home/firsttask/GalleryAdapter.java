@@ -50,7 +50,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public ImageView imgPhoto;
+        public ImageView imgPhoto; //[Comment] Wrong visibility modifiers
 
         public ViewHolder(View itemView) {
             super(itemView);
