@@ -17,10 +17,10 @@
     <dimen name="padding_filter_lf_rt">15dp</dimen>
     <dimen name="height_divider">1dp</dimen>
 
-    <dimen name="margin_top_text_gray">9dp</dimen>
-    <dimen name="margin_bot_text_gray">9dp</dimen>
-    <dimen name="margin_top_text_black">9dp</dimen>
-    <dimen name="margin_bot_text_black">9dp</dimen>
+    <dimen name="margin_top_text_gray">12dp</dimen>
+    <dimen name="margin_bot_text_gray">12dp</dimen>
+    <dimen name="margin_top_text_black">12dp</dimen>
+    <dimen name="margin_bot_text_black">12dp</dimen>
     <dimen name="margin_top_filter">10dp</dimen>
     <dimen name="margin_bot_filter">10dp</dimen>
 
@@ -30,6 +30,5 @@
     <dimen name="toolbar_icon_size">24dp</dimen>
     <dimen name="toolbar_icon_margin">12dp</dimen>
     <dimen name="toolbar_icon_padding">6dp</dimen>
-
 
 </resources>

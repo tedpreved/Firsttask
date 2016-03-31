@@ -33,7 +33,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         if (mOnImageClickListener != null) {
-            holder.imgPhoto.setOnClickListener(mOnImageClickListener);
+            holder.imPhoto.setOnClickListener(mOnImageClickListener);
         }
 
         final String urlProductImage = mUrlImages.get(position);
@@ -41,7 +41,7 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
                 .load(urlProductImage)
                 .centerCrop()
                 .crossFade()
-                .into(holder.imgPhoto);
+                .into(holder.imPhoto);
     }
 
     @Override
@@ -50,11 +50,11 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public ImageView imgPhoto;
+        private ImageView imPhoto;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            imgPhoto = (ImageView) itemView.findViewById(R.id.img_item_gallery);
+            imPhoto = (ImageView) itemView.findViewById(R.id.img_item_gallery);
         }
     }
 }

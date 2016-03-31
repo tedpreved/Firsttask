@@ -11,6 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -61,9 +62,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void setImagesUrls(){
         mImagesUrls = new ArrayList<>();
-        mImagesUrls.add("https://stv.maps.yandex.net/images/?v=3.08.0&oid=1297679222_673949761_23_1430985844&z=3&x=3&y=1");
-        mImagesUrls.add("https://stv.maps.yandex.net/images/?v=3.10.1&oid=1254588712_626488848_23_1371900264&z=2&x=4&y=2");
-        mImagesUrls.add("https://stv.maps.yandex.net/images/?v=3.10.1&oid=1254596655_626631839_23_1371919747&z=2&x=8&y=2");
+        final String[] arrayUrl=getResources().getStringArray(R.array.array_url);
+        Collections.addAll(mImagesUrls, arrayUrl);
+
     }
 
     private void setToolBar() {
