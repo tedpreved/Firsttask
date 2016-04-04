@@ -18,8 +18,8 @@ public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHold
     private View.OnClickListener mOnImageClickListener;
 
     public GalleryAdapter(Context mContext, List<String> mUrlImages, View.OnClickListener callback) {
-        this.mContext = mContext;
-        this.mUrlImages = mUrlImages;
+        this.mContext = mContext; //[Comment] Sad. mContext = context;
+        this.mUrlImages = mUrlImages; //[Comment] Sad. mUrlImages = urlImages;
         this.mOnImageClickListener = callback;
     }
 
